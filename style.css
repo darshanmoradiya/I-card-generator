@@ -1,0 +1,77 @@
+.id-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 260px;
+    height: 400px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px auto;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    background-color: #fff;
+    border-radius: 4%;
+    color: #2a3852;
+}
+
+.college-logo {
+    width: 250px;
+    height: 90px;
+    margin-bottom: 10px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.name{
+    margin-bottom: 1000px;
+}
+.id-card-info {
+    text-align: center;
+}
+
+.id-card-info p {
+    margin-bottom: 20px;
+}
+
+.profile {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10x;
+    border-radius: 100%;
+    
+}
+.barcode {
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+}
+
+#id-card-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#id-card-form label {
+    display: block;
+}
+
+#id-card-form input,
+#id-card-form button {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+#id-card-form button {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+}
+
+#id-card-form button:hover {
+    background-color: #3e8e41;
+}

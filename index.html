@@ -1,1 +1,32 @@
-hi
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College ID Card Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="id-card-container">
+        <img src="college-logo.png" alt="College Logo" class="college-logo">
+        
+        <div class="id-card-info">
+            <img src="profile.jpg" alt="Profile" class="profile">
+            <p><span id="name"></span></p>
+            <img src="barcode.png" alt="Barcode" class="barcode">
+            <p><span id="enrollment-no"></span></p>
+            
+        </div>
+    </div>
+    <form id="id-card-form">
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" required>
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" required>
+        <label for="enrollment-number">Enrollment No.:</label>
+        <input type="text" id="enrollment-number" required>
+        <button type="submit">Generate ID Card</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
